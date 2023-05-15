@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Lechufane/go-next-crud/server"
+	"github.com/Lechufane/go-next-crud/internal/server"
 )
 
 func main() {

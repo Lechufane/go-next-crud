@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Lechufane/go-next-crud/server/routes"
+	"github.com/Lechufane/go-next-crud/internal/server/routes"
 	"github.com/go-chi/chi"
 )
 

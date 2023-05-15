@@ -13,9 +13,9 @@ var (
 func New() http.Handler{
 	r := chi.NewRouter()
 
-	r.Get("/", func(w http.ResponseWriter, r *http.Request){
-		w.Write([]byte("Hello World"))
-	})
+	pr := &PlayerRouter{}
+
+	r.Mount("/player", pr.Routes())
 
 	return r
 }
